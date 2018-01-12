@@ -14,9 +14,9 @@ export default DS.RESTAdapter.extend({
     });
   },
 
-  host: 'https://api.parse.com',
+  host: 'http://localhost:1337',
 
-  namespace: '1',
+  namespace: 'parse',
 
   classesPath: 'classes',
 
